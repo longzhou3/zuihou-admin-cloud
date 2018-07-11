@@ -11,10 +11,10 @@ spring:
           uri: https://gitee.com/zuihou111/zuihou-admin-cloud
           search-paths: zuihou-config-repo/*/{application}
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 47.106.89.28
     port: 5672
-    password: guest
-    username: guest
+    password: 123456
+    username: root
 
 prod1:
   eureka:
@@ -30,7 +30,7 @@ dev:
   eureka:
     server:
       port: 8500
-    hostname: eureka.zuihou.com
+    hostname: 127.0.0.1
 
 management:
   security:

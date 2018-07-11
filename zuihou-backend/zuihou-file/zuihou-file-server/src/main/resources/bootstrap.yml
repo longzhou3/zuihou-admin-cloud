@@ -13,7 +13,7 @@
 #  eureka:
 #    server:
 #      port: 8500
-#    hostname: eureka.zuihou.com
+#    hostname: 127.0.0.1
 zuihou:
   eureka:
     server:
@@ -22,7 +22,7 @@ zuihou:
         prod1: 8501
         prod2: 8502
     hostname:
-      dev: eureka.zuihou.com
+      dev: 127.0.0.1
       prod1: eureka1.zuihou.com
       prod2: eureka2.zuihou.com
 # eureka 主机/端口配置 end

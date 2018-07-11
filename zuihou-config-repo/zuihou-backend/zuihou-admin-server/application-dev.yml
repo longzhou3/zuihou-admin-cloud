@@ -11,12 +11,12 @@ logging:
 
 spring:
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 47.106.89.28
     port: 5672
-    password: guest
-    username: guest
+    password: 123456
+    username: root
   redis:
-    host: zuihou.redis.host
+    host: 47.106.89.28
     port: 6379
     key-prefix: dev
 zuihou:

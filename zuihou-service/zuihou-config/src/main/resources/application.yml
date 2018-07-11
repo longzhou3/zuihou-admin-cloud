@@ -12,7 +12,7 @@ dev:
   eureka:
     server:
       port: 8500
-    hostname: eureka.zuihou.com
+    hostname: 127.0.0.1
 
 logging:
   path: ./logs/zuihou-config
@@ -31,14 +31,16 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/zuihou111/zuihou-admin-cloud
+          uri: https://gitee.com/longzhou3/zuihou-admin-cloud
 #          uri: https://gitee.com/zuihou111/zuihou-admin-cloud-config-repo
           search-paths: zuihou-config-repo/*/{application}
+          username: longzhou3
+          password: lz198764
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 47.106.89.28
     port: 5672
-    password: guest
-    username: guest
+    password: 123456
+    username: root
 
 management:
   security:

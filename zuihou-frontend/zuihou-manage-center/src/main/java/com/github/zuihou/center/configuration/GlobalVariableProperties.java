@@ -16,5 +16,5 @@ public class GlobalVariableProperties {
     public static final String GLOBAL_VARIABLE_PREFIX = "zuihou.variable";
 
     /** 网关服务的url前缀 */
-    private String gateWayUrlPrefix = "http://gateway.zuihou.com:9770";
+    private String gateWayUrlPrefix = "http://127.0.0.1:9770";
 }

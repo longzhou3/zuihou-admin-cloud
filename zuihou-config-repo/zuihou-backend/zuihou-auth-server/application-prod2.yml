@@ -6,12 +6,12 @@ spring:
     active: prod2
   redis:
     key-prefix: prod  # redis key的前缀， 环境的多个实例一定要配置一样（即prod1和prod2文件中需要配置一致）
-    host: zuihou.redis.host
+    host: 47.106.89.28
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 47.106.89.28
     port: 5672
-    username: guest
-    password: guest
+    username: root
+    password: 123456
 
 zuihou:
   mysql:

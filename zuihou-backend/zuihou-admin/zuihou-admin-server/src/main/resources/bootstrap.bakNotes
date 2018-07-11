@@ -13,7 +13,7 @@ dev:
   eureka:
     server:
       port: 8500
-    hostname: eureka.zuihou.com
+    hostname: 127.0.0.1
 # eureka 主机/端口配置 end
 
 spring:

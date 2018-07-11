@@ -15,8 +15,8 @@ eureka:
     status-page-url-path: ${management.context-path}/info
     health-check-url-path: ${management.context-path}/health
     prefer-ip-address: true
-    status-page-url: http://gateway.zuihou.com:9770/api/admin/swagger-ui.html
-#    hostname: ${eureka.hostname:eureka.zuihou.com}    # 指定该Eureka实例的主机名
+    status-page-url: http://127.0.0.1:9770/api/admin/swagger-ui.html
+#    hostname: ${eureka.hostname:127.0.0.1}    # 指定该Eureka实例的主机名
     metadata-map:
       user.name: ${security.user.name}
       user.password: ${security.user.password}
@@ -32,12 +32,12 @@ spring:
     time-zone: GMT+8
     default-property-inclusion: non_null
   rabbitmq:
-    host: zuihou.rabbitmq.host
+    host: 47.106.89.28
     port: 5672
-    password: guest
-    username: guest
+    password: 123456
+    username: root
   redis:
-    host: zuihou.redis.host
+    host: 47.106.89.28
     port: 6379
     pool:
       max-active: 20

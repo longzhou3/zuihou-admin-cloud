@@ -169,7 +169,7 @@ RibbitMQ、FastDFS等主要框架和中间件。
 127.0.0.1 monitor.zuihou.com
 127.0.0.1 zipkin.zuihou.com zuihou-zipkin
 
-127.0.0.1 zuihou.rabbitmq.host
+127.0.0.1 47.106.89.28
 127.0.0.1 zuihou.mysql.host
 127.0.0.1 zuihou.redis.host
 ```
@@ -235,7 +235,7 @@ RibbitMQ、FastDFS等主要框架和中间件。
 127.0.0.1 monitor.zuihou.com
 127.0.0.1 zipkin.zuihou.com zuihou-zipkin
 
-127.0.0.1 zuihou.rabbitmq.host
+127.0.0.1 47.106.89.28
 127.0.0.1 zuihou.mysql.host
 127.0.0.1 zuihou.redis.host
 ```
